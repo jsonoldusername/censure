@@ -1,2 +1,1 @@
-# Censure
-A web application for social media censoring.
+Censure is an application that allows its users to maintain a clean and professional image on the internet!

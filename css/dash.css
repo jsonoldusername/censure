@@ -1,0 +1,245 @@
+#nav ul li a.active span:before {
+    color: #3498db;
+}
+.delete {
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+}
+#slider {
+    width: 70%;
+    margin-top: 20px;
+}
+#amount {
+    background: transparent;
+}
+.bttn {
+    cursor: pointer;
+    float: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #0C5;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    width: 220px;
+    height: 42px;
+    background: #3498db;
+    color: #FFF;
+    overflow: hidden;
+    transition: all 0.5s;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    display:inline-block;
+}
+.bttn:hover, .bttn:active {
+    text-decoration: none;
+    color: #3498db;
+    border-color: #3498db;
+    background: #FFF;
+    transition: all 0.5s;
+}
+.bttn span {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    transition: all 0.5s;
+    vertical-align: middle;
+}
+.bttn:hover p.pl:after {
+    content:"Run";
+    transition: all 0.5s;
+    vertical-align:middle;
+}
+.bttn:hover span {
+    display:none;
+    transition: all 0.5s;
+    vertical-align: middle;
+}
+.title {
+    line-height: 1em;
+    width:100%;
+    text-align:center;
+    color:#000000;
+    font-size: 54px;
+    padding: 30px;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.pr, .pl {
+    margin: 0px;
+}
+.tweeter {
+    color: blue;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+h1 {
+    font-size: 20px;
+}
+#logo {
+    margin-left: 1em;
+}
+
+.onoffswitch {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative; width: 108px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #222629; border-radius: 50px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 50px; padding: 0; line-height: 50px;
+    font-size: 20px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 11px;
+    background-color: green; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 11px;
+    background-color: #DE0000; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 45px; margin: 5px;
+    background-position: center;
+    background-color: #ffffff;
+    border: 2px solid #ffffff; border-radius: 50px;
+    position: absolute; top: 0; bottom: 0; right: 54px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+.postimage {
+  display: inline-block;
+  margin: 5px;
+}
+
+.text {
+  width: 100%;
+  padding-top: 5px;
+  vertical-align: top;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 5px;
+  line-height: 20px;
+}
+
+.name {
+  display: inline-block;
+  max-width: 10%;
+  padding-top: 5px;
+  vertical-align: top;
+}
+
+.reason {
+  width: 100%;
+  padding: 5px;
+  vertical-align: top;
+  font-size: 18px;
+  color: white;
+  line-height: 20px;
+  background-color: #3498db;
+  display: inline-block;
+}
+
+
+.user {
+  display: inline-block;
+  padding-top: 5px;
+  vertical-align: top;
+  font-weight: 600;
+  color: white;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.deletex {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  float: right;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.containerx {
+  float: left;
+  width: 90%;
+  display: inline-block;
+}
+
+.holder {
+  margin-top: -85px;
+  margin-left: 77px;
+  width: 95%;
+}
+
+@media (max-width: 806px) {
+  .holder {
+    margin-left: 78px;
+  }
+  .containerx {
+    width: 80%;
+  }
+}
+
+@media (max-width: 440px) {
+  .holder {
+    
+  }
+  .containerx {
+    
+  }
+}
+
+.master {
+  width: 100%;
+  display: inline-block;
+  border-top-width: 4px;
+  border-style: solid;
+  border-color: #ecf1f1;
+  background-color: #222629;
+}
+
+.master:hover {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+}
