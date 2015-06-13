@@ -13,8 +13,8 @@ $_SESSION['login'] = "";
 <!--<FORM NAME ="form1" METHOD ="POST" ACTION ="front_page.php">
 
 <P align = center>-->
-<button onclick="location.href = 'http://proj-309-08.cs.iastate.edu/cs309_g8_censure/signup.php';" id="signupButton" class="float-left submit-button" >Signup</button>
-<button onclick="location.href = 'http://proj-309-08.cs.iastate.edu/cs309_g8_censure/login.php';" id="loginButton" class="float-left submit-button" >Login</button>
+<button onclick="location.href = 'http://censureapp.com/signup.php';" id="signupButton" class="float-left submit-button" >Signup</button>
+<button onclick="location.href = 'http://censureapp.com/login.php';" id="loginButton" class="float-left submit-button" >Login</button>
 
 <!--<INPUT TYPE = "Submit" Name = "Signup_submit"  VALUE = "New User Signup">
 <INPUT TYPE = "Submit" Name = "Login_submit"  VALUE = "Returning User Login">-->

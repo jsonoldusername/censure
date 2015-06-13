@@ -2,7 +2,7 @@
 session_start();
 if(isset($_SESSION['login'])) {
     if($_SESSION['login'] == false){
-        header('Location: http://proj-309-08.cs.iastate.edu/cs309_g8_censure/index.php');
+        header('Location: http://censureapp.com/index.php');
     }
 }
 require 'getProfilePicture.php';
@@ -521,9 +521,9 @@ if(isset($_SESSION['authTB'])) {
 							-->
 							<ul>
 								<li><a href="#dashboard" id="dashboard-link" class="skel-layers-ignoreHref"><span class="icon fa-dashboard">Dashboard</span></a></li>
-								<li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/signupauth.php" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Accounts</span></a></li>
-								<li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/settings.php" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Settings</span></a></li>
-							    <li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/logout.php" id="logout-link" class="skel-layers-ignoreHref"><span class="icon fa-power-off">Logout</span></a></li>
+								<li><a href="http://censureapp.com/signupauth.php" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Accounts</span></a></li>
+								<li><a href="http://censureapp.com/settings.php" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Settings</span></a></li>
+							    <li><a href="http://censureapp.com/logout.php" id="logout-link" class="skel-layers-ignoreHref"><span class="icon fa-power-off">Logout</span></a></li>
 							</ul>
 						</nav>
 				</div>

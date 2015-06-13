@@ -130,7 +130,7 @@ if($_SESSION['facebooklogin'] == true) {
 								<li><a href="#social" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Social Plugins</span></a></li>
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							    <li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/logout.php" id="logout-link" class="icon fa-logout"><span class="skel-layers-ignoreHref">Logout</span></a></li>
+							    <li><a href="http://censureapp.com/logout.php" id="logout-link" class="icon fa-logout"><span class="skel-layers-ignoreHref">Logout</span></a></li>
 
 							</ul>
 						</nav>

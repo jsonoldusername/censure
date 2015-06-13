@@ -12,7 +12,7 @@ $clientId = 'gfZaeUhN0_LoNg';
 $clientSecret = 'lubXi3LH48CIVcjSRG3f23lQNJ8';
 $userAgent = 'Censure/0.1 by /u/gMaN9495';
 
-$redirectUrl = "http://proj-309-08.cs.iastate.edu/cs309_g8_censure/signupauth.php";
+$redirectUrl = "http://censureapp.com/signupauth.php";
 
 require("Client.php");
 require("GrantType/IGrantType.php");

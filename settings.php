@@ -7,7 +7,7 @@ include_once "config/twconfig.php";
 include_once "config/functions.php";
 if(isset($_SESSION['login'])) {
     if($_SESSION['login'] == false){
-        header('Location: http://proj-309-08.cs.iastate.edu/cs309_g8_censure/index.php');
+        header('Location: http://censureapp.com/index.php');
     }
 }
 $profile = getPic();
@@ -295,10 +295,10 @@ $("#title").text("<?php echo $name; ?>");
 							
 							-->
 							<ul>
-								<li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/dashboard.php" id="dashboard-link" class="skel-layers-ignoreHref"><span class="icon fa-dashboard">Dashboard</span></a></li>
-								<li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/signupauth.php" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Accounts</span></a></li>
+								<li><a href="http://censureapp.com/dashboard.php" id="dashboard-link" class="skel-layers-ignoreHref"><span class="icon fa-dashboard">Dashboard</span></a></li>
+								<li><a href="http://censureapp.com/signupauth.php" id="social-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Accounts</span></a></li>
 								<li><a href="#settings" id="contact-link" class="skel-layers-ignoreHref scrollzer-locked active"><span class="icon fa-envelope">Settings</span></a></li>
-							    <li><a href="http://proj-309-08.cs.iastate.edu/cs309_g8_censure/logout.php" id="logout-link" class="skel-layers-ignoreHref"><span class="icon fa-power-off">Logout</span></a></li>
+							    <li><a href="http://censureapp.com/logout.php" id="logout-link" class="skel-layers-ignoreHref"><span class="icon fa-power-off">Logout</span></a></li>
 							</ul>
 						</nav>
 				</div>

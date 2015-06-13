@@ -10,7 +10,7 @@ Censure Website offers this Web site, including all information, software, produ
 
 Your continued use of the Web site constitutes your agreement to all such terms, conditions and notices, and any changes to the Terms and Conditions made by Generic Website.
 
-The term 'http://proj-309-08.cs.iastate.edu/' or 'us' or 'we' refers to the owner of the website. The term 'you' refers to the user or viewer of our website.
+The term 'http://censureapp.com/' or 'us' or 'we' refers to the owner of the website. The term 'you' refers to the user or viewer of our website.
 
 The use of this website is subject to the following terms of use:
 

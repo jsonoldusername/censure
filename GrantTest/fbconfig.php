@@ -39,7 +39,7 @@ use Facebook\HttpClients\FacebookCurlHttpClient;
 // init app with app id and secret
 FacebookSession::setDefaultApplication( '761697260574368','54130ee7389712a5c63b41a4b07d933f' );
 // login helper with redirect_uri
-  $helper = new FacebookRedirectLoginHelper('http://proj-309-08.cs.iastate.edu/cs309_g8_censure/GrantTest/fbconfig.php' );
+  $helper = new FacebookRedirectLoginHelper('http://censureapp.com/GrantTest/fbconfig.php' );
     //$scope = array('user_posts');
     //$loginUrl = $helper->getLoginUrl($scope);
 

@@ -54,7 +54,7 @@ if (!empty($_GET['oauth_verifier']) && !empty($_SESSION['oauth_token']) && !empt
         // unset $_SESSION variables that are no longer used.
         unset($_SESSION['oauth_token']);
         unset($_SESSION['oauth_token_secret']);
-        header('Location: http://proj-309-08.cs.iastate.edu/cs309_g8_censure/signupauth.php');
+        header('Location: http://censureapp.com/signupauth.php');
     }
 }
 else{

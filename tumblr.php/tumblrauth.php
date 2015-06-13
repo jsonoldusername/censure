@@ -22,7 +22,7 @@ if (!empty($_GET['oauth_verifier'])) {
     $_SESSION['Tumblr_oauth_token_secret'] = $data['oauth_token_secret'];
 }
 if (empty($_SESSION['Tumblr_oauth_token']) || empty($_SESSION['Tumblr_oauth_token_secret'])) {
-    $callbackUrl = 'http://proj-309-08.cs.iastate.edu/cs309_g8_censure/tumblr.php/tumblrauth.php';
+    $callbackUrl = 'http://censureapp.com/tumblr.php/tumblrauth.php';
     $resp = $requestHandler->request('POST', 'oauth/request_token', array('oauth_callback' => $callbackUrl));
     $result = (string) $resp->body;
     parse_str($result, $keys);
@@ -50,7 +50,7 @@ if($result) {
         $query = "INSERT INTO Tumblr (username, oauth_token, oauth_secret, blogname) VALUES ($username, '$token', '$secret', '$name')";
         $success = mysqli_query($database, $query);
         $_SESSION['authTB'] = true;
-        header('Location: http://proj-309-08.cs.iastate.edu/cs309_g8_censure/signupauth.php');
+        header('Location: http://censureapp.com/signupauth.php');
     }
 }
 ?>
