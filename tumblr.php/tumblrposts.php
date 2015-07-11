@@ -13,7 +13,7 @@ function getAllTumblrPosts($username) {
     foreach($client->getBlogInfo($blogName) as $test) {
         $total = $test->posts;
     }
-    $gets = 20; $totes = 0;
+    $gets = 20; $totes = 0; $total = 60;
     while($totes < $total) {
         foreach($client->getBlogPosts($blogName, array('filter' => "text", 'limit'=> $gets,'offset'=> $totes))->posts as $postx) {
             array_push($all, $postx);
