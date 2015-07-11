@@ -5,7 +5,7 @@ error_reporting(E_ALL | E_STRICT);
 require '../config/dictconfig.php';
 use dictconfig;
 
-$dictfile = fopen("/var/www/html/cs309_g8_censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
+$dictfile = fopen("/var/www/html/censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
 $dictarray = array();
 
 while (!feof($dictfile)){

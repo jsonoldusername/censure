@@ -97,7 +97,7 @@ class User {
         $twitPost = null;
         $test = null;
         $stopid = 0; $totalget = 200; $counter = 1;
-        $dictfile = fopen("/var/www/html/cs309_g8_censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
+        $dictfile = fopen("/var/www/html/censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
         $dictarray = array();
         
         while (!feof($dictfile)){
@@ -156,7 +156,7 @@ class User {
         $fbPost = null;
         $test = null;
         $stopid = 0; $totalget = 200; $counter = 1;
-        $dictfile = fopen("/var/www/html/cs309_g8_censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
+        $dictfile = fopen("/var/www/html/censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
         $dictarray = array();
         $postData = $data["data"];
         
@@ -212,7 +212,7 @@ function getDirtyTumblr($cusername, $strictness, $custom)
         $dirtyTumblr = array();
         $tumblrPost = null;
         $test = null;
-        $dictfile = fopen("/var/www/html/cs309_g8_censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
+        $dictfile = fopen("/var/www/html/censure/config/engl_words_350k.txt", "r") or die("Unable to open file!");
         $dictarray = array();
         while (!feof($dictfile)){
         	array_push($dictarray, trim(fgets($dictfile)));

@@ -170,11 +170,11 @@ if($_SESSION['facebooklogin'] == true) {
 	<br />
 </div>
 
-<center><form action="/cs309_g8_censure/timeline.php">
+<center><form action="/censure/timeline.php">
     <input type="submit" value="Continue" <?=$disabled?>>
 </form>
 </center>
-<center><form action="/cs309_g8_censure/facebookTest.php">
+<center><form action="/censure/facebookTest.php">
     <input type="submit" value="Continue to test FB" <?=$disabled?>>
 </form>
 </center>
