@@ -85,7 +85,7 @@ class User {
             $set = $tweet->user->statuses_count;
             break;
         }
-        //echo($set);
+        $set = 200;
         $loops = $set / 200;
         $extra = $set % 200;
         if($extra > 0) {
